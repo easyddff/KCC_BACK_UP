@@ -1,0 +1,23 @@
+package MyPack;
+
+import java.util.Scanner;
+
+public class MyMission03 {
+
+	public static void main(String[] args) {
+		String name, address;
+		int number;
+		Scanner sc = new Scanner(System.in);
+//		String str = sc.nextLine();
+		
+		System.out.print("이름: ");
+		name = sc.nextLine();
+		System.out.print("주소: ");
+		address = sc.nextLine();
+		System.out.print("전화번호: ");
+		number = sc.nextInt();
+
+
+	}
+
+}

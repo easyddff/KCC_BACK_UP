@@ -1,0 +1,10 @@
+package MyPack;
+
+public class MyMission02 {
+
+	public static void main(String[] args) {
+		System.out.println("È«±æµ¿ \n È« ±æ µ¿ \n È«  ±æ  µ¿");
+
+	}
+
+}

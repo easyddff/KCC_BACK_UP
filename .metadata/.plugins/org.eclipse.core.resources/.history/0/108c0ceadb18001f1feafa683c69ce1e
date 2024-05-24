@@ -1,0 +1,24 @@
+package kosa.mission;
+
+import java.util.Scanner;
+
+public class Mission02 {
+
+	public static void main(String[] args) {
+		// 성적관리 구현
+		//국어, 영어, 수학 점수를 키보드로부터 입력 받고
+		// 총점과 평균을 출력하세요. (단 평균은 실수형)
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("국어: ");
+		int num1 = Integer.parseInt("");
+		System.out.println("영어: ");
+		int num2 = Integer.parseInt("");
+		System.out.println("수학: ");
+		int num3 = Integer.parseInt("");
+		
+		
+
+	}
+
+}

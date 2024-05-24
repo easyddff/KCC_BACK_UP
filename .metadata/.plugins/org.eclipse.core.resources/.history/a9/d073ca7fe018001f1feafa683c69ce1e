@@ -1,0 +1,19 @@
+package MyPack;
+
+import java.util.Scanner;
+
+public class MyMission {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("이름: "+sc);
+
+		String str = sc.nextLine();
+		
+		String name = str;
+		
+		System.out.println("내이름은" + name + "입니다.");
+		
+	}
+
+}

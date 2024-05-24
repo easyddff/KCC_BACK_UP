@@ -1,0 +1,17 @@
+package my.exam;
+
+public class MyExam01 {
+
+	public static void main(String[] args) {
+		int num =5;
+		
+		for (int i = 0; i <= 25; i++) {
+			if(i%num==0) {
+				System.out.print();
+			}
+			System.out.println(i);
+		}
+
+	}
+
+}

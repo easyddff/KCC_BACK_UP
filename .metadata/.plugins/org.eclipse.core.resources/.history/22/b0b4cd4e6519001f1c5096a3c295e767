@@ -1,0 +1,26 @@
+package kosa.basic;
+
+public class VariableExam03 {
+
+	public static void main(String[] args) {
+		//지역(로컬)변수 특징 2가지
+		//반드시 초기화후에 사용
+		//선언된 변수는 정의된 범위안에서만 사용
+		
+		int num=0;
+		num = num+1;
+		System.out.println(num);
+		
+		int a=0;
+		if(num==1) {
+			a=100;
+			
+		}
+		System.out.println("a:"+a);
+		
+		for (int i = 1; i <= 10; i++) {
+			
+		}
+	}//end
+
+}

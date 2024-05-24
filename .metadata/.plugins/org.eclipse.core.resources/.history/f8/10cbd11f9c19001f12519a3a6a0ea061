@@ -1,0 +1,17 @@
+package kosa.basic;
+
+public class ArrayExam01 {
+
+	public static void main(String[] args) {
+		// 1. 배열 선언, 생성 분리
+		int arr[];// 배열 선언
+		arr=new int[5]; //배열 생성(메모리 할당)
+		
+		//2. 배열 선언, 생성 함께
+		int arr2[]=new int[5];
+		arr2[0]=10;
+		arr2[1]=20;
+
+	}
+
+}
